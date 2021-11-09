@@ -1,7 +1,7 @@
 
 from flask import render_template, url_for, flash, redirect
-from City.forms import TopCities
-from City import app
+from myapp.forms import TopCities
+from myapp import app
 
 top_cities = [
     "Paris", "London", "Rome", "Tahiti"
